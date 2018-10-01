@@ -9,7 +9,7 @@ class PkgExtract < CurlDownloadStrategy
   end
 end
 
-class Pdftk < Formula
+class PdftkServer < Formula
   homepage 'http://www.pdflabs.com/tools/pdftk-server'
   url 'https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-mac_osx-10.11-setup.pkg',
     :using => PkgExtract
